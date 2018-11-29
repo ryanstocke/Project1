@@ -1,0 +1,43 @@
+body {
+    background-color: lightslategray;
+}
+
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: whitesmoke;
+}
+
+.banner {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card-title {
+    padding: 15px;
+}
+
+.contentDiv {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.peru {
+    float: left;
+    margin-right: 5px;
+}
+
+
+.authorImage {
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    right: 2px;
+    bottom: 2px;
+}
+
+
