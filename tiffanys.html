@@ -10,7 +10,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/materialize.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
+    <style>
+        #graceImg {
+                border-radius: 50%;
+                }
+           #map {
+                    height: 300px;
+                    width: 300px;
+                }
+                
+                    
+        </style>
 </head>
 
 <body>
@@ -38,84 +48,72 @@
     <!-- Main Container -->
     <div class="container">
         <div class="contentDiv">
-            <div class="ryanPost">
-                <div class="row">
-                    <h2>Three movies you may have not seen!</h2>
-                    <h5>By: Ryan</h5>
+            <h2>Our Disney World Trip!</h2>
+            <h4>February 2017</h4>
+            <h5>
+                <i>By Tiffany</i>
+            </h5>
+            <p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et</p>
 
-                    <br>
-                    <div id="movie2">
-                        <div class="header">Immitation Game</div>
-                        <p>Placeholder text</p>
-                        <p>During the winter of 1952, British authorities entered the home of mathematician,
-                            cryptanalyst and
-                            war hero Alan Turing (Benedict Cumberbatch) to investigate a reported burglary.
-                            They instead ended up arresting Turing himself on charges of 'gross indecency', an
-                            accusation that
-                            would lead to his devastating conviction for the criminal offense of
-                            homosexuality - little did officials know, they were actually incriminating the pioneer of
-                            modern-day computing. Famously leading a motley group of scholars, linguists, chess
-                            champions
-                            and intelligence officers, he was credited with cracking the so-called unbreakable codes of
-                            Germany's World War II Enigma machine.
-                            An intense and haunting portrayal of a brilliant, complicated man, THE IMITATION GAME
-                            follows a
-                            genius who under nail-biting pressure helped to shorten the war and, in turn, save
-                            thousands of
-                            lives.</p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nuPZUUED5uk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <img src="assets/images/Grace and Castle.png" alt="grace" id="graceImg" style="width:400px">
+                <div id="map"></div>
 
+        </div>
+        <!-- Row 1 Cards -->
+        <div class="row">
+            <!-- card 1 -->
+            <div class="col s4 m4">
+                <div class="card medium hoverable">
+                    <div class="card-image">
+                        <img height=175px; src="assets/images/peruHolder.jpg">
                     </div>
-                    <br>
-                    <div id="movie3">
-                        <div class="header">Edge of Tomorrow</div>
-                        <p>Placeholder text</p>
-                        <p>The epic action of "Edge of Tomorrow" unfolds in a near future in which an alien race has
-                            hit the
-                            Earth in an unrelenting assault, unbeatable by any military unit in the world.
-                            Major William Cage (Tom Cruise) is an officer who has never seen a day of combat when he is
-                            unceremoniously dropped into what amounts to a suicide mission.
-                            Killed within minutes, Cage now finds himself inexplicably thrown into a time loop-forcing
-                            him to
-                            live out the same brutal combat over and over, fighting and dying again...and again.
-                            But with each battle, Cage becomes able to engage the adversaries with increasing skill,
-                            alongside
-                            Special Forces warrior Rita Vrataski (Emily Blunt).
-                            And, as Cage and Rita take the fight to the aliens, each repeated encounter gets them one
-                            step
-                            closer to defeating the enemy.</p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bydHcLDfWuY" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-
+                    <span class="card-title red-text lighten-4">Anna S.</span>
+                    <div class="card-content center">
+                        <p><b>Why haven't you been to Peru yet?</b></p>
                     </div>
-
-
-                    <div id="movie1">
-                        <div class="header">Sicario</div>
-                        <p>One of my all time favorite movies and one that I find that people have rarely seen is
-                            Sicario. The
-                            movie opens with a pace that sets the tone for the entire movie. </p>
-                        <p>In Mexico, Sicario means hitman. In the lawless border area stretching between the U.S. and
-                            Mexico,
-                            an idealistic FBI agent (Emily Blunt) is enlisted by an elite government
-                            task force official (Josh Brolin) to aid in the escalating war against drugs. Led by an
-                            enigmatic
-                            consultant with a questionable past (Benicio Del Toro), the team sets out
-                            on a clandestine journey forcing Kate to question everything that she believes in order to
-                            survive.
-                        </p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sR0SDT2GeFg" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-
+                    <div class="card-action">
+                        <a id="peru" class="red-text lighten-4" href="#">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col s4 m4">
+                <div class="card medium hoverable">
+                    <div class="card-image">
+                        <img height=175px; src="assets/images/movieHolder.jpg">
+                    </div>
+                    <span class="card-title red-text lighten-4">Ryan S.</span>
+                    <div class="card-content center">
+                        <!-- <img class="authorImage" src=""/> -->
+                        <p><b>Three Movies you may have not seen!</b></p>
+                    </div>
+                    <div class="card-action nav">
+                        <a id="topthree" class="red-text lighten-4" href="topthree.html">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col s4 m4">
+                <div class="card medium hoverable">
+                    <div class="card-image">
+                        <img height=175px; src="assets/images/sportsHolder.jpg">
+                    </div>
+                    <span class="card-title red-text lighten-4">Stuart W.</span>
+                    <div class="card-content center">
+                        <p><b>Predictions for how our Home-Town Denver Nuggets Will Fare This Year</b></p>
+                    </div>
+                    <div class="card-action">
+                        <a id="sPost1" class="red-text lighten-4" id="sPost1" href="stuart1.html">Read more...</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Row 1 Cards -->
+
+
+        <!-- Row 2 Cards -->
+
         <div class="row">
             <!-- card 1 -->
             <div class="col s4 m4">
@@ -220,13 +218,33 @@
     </div>
 
 
-
-
+    <!-- Moment Js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+
+    <!-- Materialize JS -->
     <script src="assets/javascript/materialize.min.js"></script>
     <script src="assets/javascript/materialize.js"></script>
+    <script type="text/javascript">
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: { lat: 28.417831662, lng: -81.575331032 },
+            });
+            var marker = new google.maps.Marker({
+                position: { lat: 28.417831662, lng: -81.575331032 },
+                map: map,
+                title: "Hello Mickey Mouse!"
+            });
+        }
+    </script>
+
     <script src="assets/javascript/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7UZmTHAMl9HcH5nUwa7kJixTYgwWKr4Q&callback=initMap"
+        async defer></script>
 </body>
 
 </html>
