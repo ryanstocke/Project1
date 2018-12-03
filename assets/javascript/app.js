@@ -17,35 +17,27 @@ var queryURL = "https://api.seatgeek.com/2/events?performers.slug=denver-nuggets
       url: queryURL,
       method: "GET"
     }).then(function(response) {
+
 //game 1
-        var str = response.events[0].datetime_utc
-        var dateTime = str.split("T");
-        $("#date1").html("Date: " + moment(dateTime[0]).format("dddd, MMM Do"));
-        console.log(dateTime[1]);
-        $("#time1").html("Time: " + moment(dateTime[1]).format("h hh"));
+        var str1 = response.events[0].datetime_utc
+        $("#date1").html("Date: " + moment(str1).subtract(7, 'hours').format('LT') + " MST");
+        $("#time1").html("Time: " + moment(str1).subtract(7, 'hours').format("dddd, MMM Do"));
         $("#game1").html(response.events[0].title);
         $("#tickets1").attr("href", response.events[0].url);
 
 //game 2
-        var str = response.events[1].datetime_utc
-        var dateTime = str.split("T");
-        $("#date2").html("Date: " + moment(dateTime[0]).format("dddd, MMM Do"));
-        console.log(dateTime[1]);
-        $("#time2").html("Time: " + moment(dateTime[1]).format("h hh"));
+        var str2 = response.events[1].datetime_utc
+        $("#date2").html("Date: " + moment(str2).subtract(7, 'hours').format('LT') + " MST");
+        $("#time2").html("Time: " + moment(str2).subtract(7, 'hours').format("dddd, MMM Do"));
         $("#game2").html(response.events[1].title);
         $("#tickets2").attr("href", response.events[1].url);
 
 //game 3
-        var str = response.events[2].datetime_utc
-        var dateTime = str.split("T");
-        $("#date3").html("Date: " + moment(dateTime[0]).format("dddd, MMM Do"));
-        console.log(dateTime[1]);
-        $("#time3").html("Time: " + moment(dateTime[1]).format("h hh"));
+        var str3 = response.events[2].datetime_utc
+        $("#date3").html("Date: " + moment(str3).subtract(7, 'hours').format('LT') + " MST");
+        $("#time3").html("Time: " + moment(str3).subtract(7, 'hours').format("dddd, MMM Do"));
         $("#game3").html(response.events[2].title);
         $("#tickets3").attr("href", response.events[2].url);
-    
- 
-
 
 });
 
