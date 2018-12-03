@@ -28,65 +28,65 @@
         // }
 
     
-        var neighborhoods = [
-            {lat: -13.163, lng: -72.545},
-            {lat: -13.333, lng: -72.085},
-            {lat: -13.334, lng: -72.544}
-           
-          ];
-    
-          var markers = [];
-          var map;
-    
-          function initMap() {
-            map = new google.maps.Map(document.getElementById('mapPeru'), {
-              zoom: 8,
-              center: {lat: -13.532, lng: -71.965}
-            // center: location
-            });
-          }
-    
-          function drop() {
-            clearMarkers();
-            for (var i = 0; i < neighborhoods.length; i++) {
-              addMarkerWithTimeout(neighborhoods[i], i * 200);
-            }
-          }
-    
-          function addMarkerWithTimeout(position, timeout) {
-            window.setTimeout(function() {
-              markers.push(new google.maps.Marker({
-                position: position,
-                map: map,
-                animation: google.maps.Animation.DROP
-              }));
-            }, timeout);
-          }
-    
-          function clearMarkers() {
-            for (var i = 0; i < markers.length; i++) {
-              markers[i].setMap(null);
-            }
-            markers = [];
-          }
-    
+      var neighborhoods = [
+        {lat: -13.163, lng: -72.545},
+        {lat: -13.333, lng: -72.085},
+        {lat: -13.334, lng: -72.544}
        
-    
-    
-    
-    
-    
-    
-    // Initialize and add the Whistler map
-    // function initMap() {
-    //     // The location of Whistler
-    //     var whistler = {lat: 50.116, lng: -122.957};
-    //     // The map, centered at Whistler
-    //     var mapWhistler = new google.maps.Map(
-    //         document.getElementById('mapWhistler'), {zoom: 5, center: whistler});
-    //     // The marker, positioned at Cusco
-    //     var marker = new google.maps.Marker({position: whistler, map: mapWhistler});
-    //   }
-    
-    
-    // });
+      ];
+
+      var markers = [];
+      var map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('mapPeru'), {
+          zoom: 8,
+          center: {lat: -13.532, lng: -71.965}
+        // center: location
+        });
+      }
+
+      function drop() {
+        clearMarkers();
+        for (var i = 0; i < neighborhoods.length; i++) {
+          addMarkerWithTimeout(neighborhoods[i], i * 200);
+        }
+      }
+
+      function addMarkerWithTimeout(position, timeout) {
+        window.setTimeout(function() {
+          markers.push(new google.maps.Marker({
+            position: position,
+            map: map,
+            animation: google.maps.Animation.DROP
+          }));
+        }, timeout);
+      }
+
+      function clearMarkers() {
+        for (var i = 0; i < markers.length; i++) {
+          markers[i].setMap(null);
+        }
+        markers = [];
+      }
+
+   
+
+
+
+
+
+
+// Initialize and add the Whistler map
+// function initMap() {
+//     // The location of Whistler
+//     var whistler = {lat: 50.116, lng: -122.957};
+//     // The map, centered at Whistler
+//     var mapWhistler = new google.maps.Map(
+//         document.getElementById('mapWhistler'), {zoom: 5, center: whistler});
+//     // The marker, positioned at Cusco
+//     var marker = new google.maps.Marker({position: whistler, map: mapWhistler});
+//   }
+
+
+// });
