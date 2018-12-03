@@ -12,30 +12,21 @@ img[id$="Img"] {
 
     #graceImg {
     border-radius: 50%;
-    margin:10px;
+    margin: 60px;
+    
     }
 
     #enginesImg {
     border-radius: 50%;
-    margin:10px;
+    margin:60px;
 }
 
     #shuttleImg {
     border-radius: 50%;
-    margin:10px;
-}
-
-    #clockImg {
-    border-radius: 50%;
-    margin:10px;
-}
-
-    #sunsetImg {
-    border-radius: 50%;
-    margin:10px;
+    margin-bottom: 60px;
 }
 
     #usImg {
-        border-radius: 50%;
-    margin:10px;
+    border-radius: 50%;
+    margin-bottom: 70px;
 }
