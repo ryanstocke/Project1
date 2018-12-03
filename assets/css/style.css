@@ -42,3 +42,84 @@ nav {
 }
 
 
+
+
+/* Stuart Post1 Styling */
+
+.upcoming {
+    /* display: inline-block;
+    height: 200px;
+    width: 200px; */
+    background-color: #002649;
+    border: 2px solid #FFC61E;
+    color: white;
+    font-weight: 700;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+.tickets {
+    position: relative;
+    left: 50px !important;
+    top: 20px !important;
+    height: 50px;
+    width: 100px !important;
+    background-color: #8C2633;
+    color: #FFC61E;
+    border-radius: 10px;
+
+}
+
+.tickets:hover {
+    background-color: rgb(97, 26, 35);
+
+}
+
+.upcomingTitle {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+
+}
+
+#photo1 {
+    float: left;
+}
+
+#photo2 {
+    float: right;
+}
+
+/* End Stuart Post 1 Styling */
+h6 {
+    text-decoration: underline;
+}
+#ryan1 {
+    height: 85px;
+   width: auto;
+   float: left;
+   padding-right: 10px;
+  }
+
+  #annasippel1 {
+    height: 85px;
+    width: auto;
+    float: left;
+    padding-right: 10px; 
+  }
+
+  #tiffany1 {
+    height: 85px;
+    width: auto;
+    float: left;
+    padding-right: 10px;   
+  }
+
+  #stuart1 {
+    height: 85px;
+    width: auto;
+    float: left;
+    padding-right: 10px; 
+  }
