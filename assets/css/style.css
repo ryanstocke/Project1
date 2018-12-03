@@ -80,16 +80,22 @@ nav {
     max-width: 600px;
     margin: 0 auto;
     text-align: left;
-    padding: 10px;
+    margin: 10px;
+    
 
 }
 
 #photo1 {
     float: left;
+    border: 2px solid #002649;
+    margin: 10px;
+   
 }
 
 #photo2 {
     float: right;
+    border: 2px solid #002649;
+    margin: 10px;
 }
 
 /* End Stuart Post 1 Styling */
