@@ -27,6 +27,7 @@ nav {
 .peru {
     float: left;
     margin-right: 5px;
+    border-radius :50%;
 }
 
 
@@ -98,3 +99,33 @@ nav {
 }
 
 /* End Stuart Post 1 Styling */
+h6 {
+    text-decoration: underline;
+}
+#ryan1 {
+    height: 85px;
+   width: auto;
+   float: left;
+   padding-right: 10px;
+  }
+
+  #annasippel1 {
+    height: 85px;
+    width: auto;
+    float: left;
+    padding-right: 10px; 
+  }
+
+  #tiffany1 {
+    height: 85px;
+    width: auto;
+    float: left;
+    padding-right: 10px;   
+  }
+
+  #stuart1 {
+    height: 85px;
+    width: auto;
+    float: left;
+    padding-right: 10px; 
+  }
