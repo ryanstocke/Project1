@@ -1,0 +1,271 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The STAR Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/materialize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <style>
+            /* Set the size of the div element that contains the map */
+            #mapPeru {
+                height: 250px;
+                /* The height is 400 pixels */
+                width: 70%;
+                /* The width is the width of the web page */
+                margin-left: auto;
+                margin-right: auto;
+                float: right;
+    
+            }
+    
+            .peru {
+                float: left;
+                margin-right: 10px;
+            }
+            #drop {
+                background-color:pink;
+            }
+    
+        </style>
+</head>
+<body>
+
+<!-- Header -->
+    <!-- Navbar -->
+        <div class="navbar-fixed">
+        <nav>
+                <div class="nav-wrapper">
+                    <a href="index.html" class="left brand-logo red-text lighten-4">The STAR Blog</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="red-text lighten-4" href="about.html">About</a></li>
+                    <li><a class="red-text lighten-4" href="contributors.html">Contributors</a></li>
+                    <li><a class="red-text lighten-4" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                </nav>
+        </div>
+
+    <!-- Banner Image -->
+    <div>
+        <img src="assets/images/denverBanner.jpg" alt="" class="banner">
+    </div>
+
+<!-- Main Container -->
+<div class="container">
+        <div class='contentDiv'>
+                <div class="annaPeruPost">
+                    <h2>Peru Trip!</h2>
+                    <h5><i>By: Anna</i></h5>
+                    <div id="floating-panel">
+                        <button id="drop" onclick="drop()">Click Here to See Where I Went!</button>
+                    </div>
+                    <div id="mapPeru"></div>
+                    <p>
+                        "Hey y'all! Peru was super awesome. I'm gonna tell you all about it...Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit. Donec vitae mauris interdum, vehicula nisl sit amet, finibus ex. Ut dapibus lectus
+                        ut
+                        sapien dictum,
+                        vel ultrices orci rhoncus. Praesent pharetra arcu at lectus facilisis, et dapibus nisi scelerisque.
+                        Orci
+                        varius natoque
+                        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam luctus, lacus non vulputate
+                        malesuada, tortor ex
+                        congue neque, a accumsan leo tortor quis diam. Quisque sapien purus, sollicitudin vitae varius eu,
+                        malesuada at eros.
+                        Nunc pretium felis dolor, placerat malesuada lorem congue euismod. Duis nec ligula sit amet ipsum
+                        sagittis
+                        imperdiet.
+                        Donec feugiat ipsum nec turpis dignissim, sed vulputate dolor maximus.</p>
+                    <img class='peru' height=200px; width=250px; src='assets/images/peruHolder.jpg'>
+                    <p>Pellentesque ac
+                        interdum nisl.
+                        Donec porta lorem eget nisl blandit, et luctus metus scelerisque. Duis consectetur mollis nunc eu
+                        placerat.
+                        Cras
+                        facilisis odio sit amet commodo efficitur. Nam at mauris nisi. Nulla facilisi. Ut venenatis mauris
+                        arcu, id
+                        pretium
+                        nulla rhoncus pulvinar. Praesent neque dui, scelerisque non rutrum eget, molestie eget ipsum. Sed
+                        nec
+                        purus
+                        et
+                        dolor mattis porta. Mauris in fringilla mi. In in nunc sagittis, blandit purus at, tempus orci.
+                        Pellentesque non
+                        massa at tellus auctor porttitor eget et mi. Nam metus turpis, finibus posuere sagittis ut,
+                        efficitur
+                        ac
+                        erat.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec a
+                        pharetra
+                        mi.</p>
+                    <p>Phasellus nibh quam, condimentum vitae felis a, aliquam finibus est. Donec non fringilla tellus, ac
+                        molestie
+                        quam.
+                        Cras vel odio metus. Morbi in diam vitae quam condimentum tincidunt vel eget dolor. Curabitur at
+                        malesuada
+                        nibh, eu
+                        condimentum elit. Nullam ac placerat lacus. Pellentesque ut erat sem. Phasellus malesuada, massa ac
+                        egestas
+                        rutrum,
+                        libero odio sagittis lacus, sed accumsan lacus ipsum id velit.</p>
+                    <p>Aenean facilisis ut odio eget blandit. Pellentesque id sagittis massa. Ut ornare sollicitudin eros
+                        in
+                        finibus.
+                        Vivamus arcu nisl, finibus ac molestie id, varius vel ante. Pellentesque commodo felis eget sem
+                        volutpat
+                        mollis. In
+                        neque magna, tincidunt non leo id, gravida elementum leo. Sed laoreet, odio id interdum luctus,
+                        odio
+                        velit
+                        ultricies neque, at accumsan massa lectus id quam. In consectetur pretium quam, et tincidunt eros
+                        consequat
+                        sed.
+                        Fusce dapibus, elit at varius faucibus, lectus quam condimentum diam, ac luctus urna magna non dui.
+                        Proin
+                        blandit
+                        turpis non massa fermentum pulvinar. Aliquam erat volutpat. Vestibulum porttitor lorem nec enim
+                        tempor,
+                        in
+                        molestie
+                        arcu iaculis.</p>
+                    <p>Phasellus blandit in sapien quis sodales. Sed condimentum finibus erat, et porttitor lectus
+                        ultricies
+                        quis.
+                        Praesent
+                        vulputate lorem ac augue facilisis, nec fermentum diam gravida. Vestibulum et libero turpis. Duis
+                        porttitor
+                        massa
+                        nec massa laoreet hendrerit. Donec vel malesuada nisl. Phasellus porta, est et luctus dignissim,
+                        nisl
+                        erat
+                        iaculis
+                        justo, in elementum massa lacus id ipsum. Aenean dignissim ante ac scelerisque rhoncus.
+                        Pellentesque
+                        rhoncus eros
+                        et quam consequat luctus.</p>
+                </div>
+            </div>
+    
+<!-- Row 1 Cards -->
+<div class="row">
+    <!-- card 1 -->
+        <div class="col s4 m4">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img height=175px; src="assets/images/peruHolder.jpg">
+            </div>
+            <span class="card-title red-text lighten-4">Anna S.</span>
+            <div class="card-content center">
+              <p><b>Why haven't you been to Peru yet?</b></p>
+            </div>
+            <div class="card-action">
+                <a id="peru" class ="red-text lighten-4" href="annaperu.html">Read more...</a>
+            </div>
+          </div>
+        </div>
+         <!-- card 2 -->
+        <div class="col s4 m4">
+                <div class="card medium hoverable">
+                  <div class="card-image">
+                    <img height=175px; src="assets/images/movieHolder.jpg">
+                  </div>
+                  <span class="card-title red-text lighten-4">Ryan S.</span>
+                  <div class="card-content center">
+                    <!-- <img class="authorImage" src=""/> -->
+                    <p><b>Three Movies you may have not seen!</b></p>
+                  </div>
+                  <div class="card-action nav">
+                   <a id="topthree" class ="red-text lighten-4" href="topthree.html">Read more...</a>
+                  </div>
+                </div>
+              </div>
+               <!-- card 3 -->
+              <div class="col s4 m4">
+                    <div class="card medium hoverable">
+                      <div class="card-image">
+                        <img height=175px; src="assets/images/sportsHolder.jpg">
+                      </div>
+                      <span class="card-title red-text lighten-4">Stuart W.</span>
+                      <div class="card-content center">
+                        <p><b>Predictions for how our Home-Town Denver Nuggets Will Fare This Year</b></p>
+                      </div>
+                      <div class="card-action">
+                        <a id= "sPost1" class="red-text lighten-4" id="sPost1" href="stuart1.html">Read more...</a>
+                      </div>
+                    </div>
+                  </div>
+      </div>
+
+  
+      <!-- Row 2 Cards -->
+
+      <div class="row">
+         <!-- card 1 -->
+          <div class="col s4 m4">
+            <div class="card medium hoverable">
+              <div class="card-image">
+                <img height=175px; src="assets/images/tiffanyHolder.jpg">
+              </div>
+              <span class="card-title red-text lighten-4">Tiffany</span>
+              <div class="card-content center">
+                <p><b>I Had a Great Weekend with my Daughter!</b></p>
+              </div>
+              <div class="card-action">
+                  <a id="tiffanys" class ="red-text lighten-4" href="tiffanys.html">Read more...</a>
+              </div>
+            </div>
+          </div>
+           <!-- card 2 -->
+          <div class="col s4 m4">
+                  <div class="card medium hoverable">
+                    <div class="card-image">
+                      <img height=175px; src="assets/images/movieHolder.jpg">
+                    </div>
+                    <span class="card-title red-text lighten-4">Ryan S.</span>
+                    <div class="card-content center">
+                      <!-- <img class="authorImage" src="assets/images/moviesHolder.jpg"/> -->
+                      <p><b>Essential Christmas Movies</b></p>
+                    </div>
+                    <div class="card-action ">
+                      <a id= "christmas" class ="red-text lighten-4" href="christmas.html">Read more...</a>
+                    </div>
+                  </div>
+                </div>
+                 <!-- card 3 -->
+                <div class="col s4 m4">
+                      <div class="card medium hoverable">
+                        <div class="card-image">
+                          <img height=175px; src="assets/images/sportsHolder.jpg">
+                        </div>
+                        <span class="card-title red-text lighten-4">Stuart W.</span>
+                        <div class="card-content center">
+                          <p><b>Predictions for how our Home-Town Denver Nuggets Will Fare This Year</b></p>
+                        </div>
+                        <div class="card-action">
+                            <a id= "sPost1" class="red-text lighten-4" id="sPost1" href="stuart1.html">Read more...</a>
+                          </div>
+                      </div>
+                    </div>
+        </div>
+
+ </div>
+
+
+<!-- Moment Js -->
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+<!-- JQuery -->
+ 
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/materialize.min.js"></script>
+    <script src="assets/javascript/materialize.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/annaperu.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8I_3kYM6Kwjb-gQKhOPx_o2W-C5QT9UM&callback=initMap">
+    </script>
+</html>
